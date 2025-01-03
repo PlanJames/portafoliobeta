@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">&lt;/&gt; José Lencina</div>
+          <button class="hamburger" aria-label="Toggle menu">
+            &#9776;
+          </button>
+          <ul class="nav-links">
+            <a href="" class="menu__link">Inicio</a>
+            <a href="#proyectos" class="menu__link">Proyectos</a>
+            <a href="#" class="menu__link">Sobre mí</a>
+            <a href="#" class="menu__link">Curriculum</a>
+          </ul>          
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro">
+            <div class="intro-text">
+                <h1>José Lencina</h1>
+                <p>No soy una Inteligencia Artificial, soy un desarrollador Backend apasionado por 
+                    <span class="highlight">transformar datos en conocimiento</span>.
+                </p>
+            </div>
+            <div class="intro-image">
+                <img src="foto.jpg" alt="Imagen" />
+            </div>
+        </section>
+                
+
+        <section class="layout">
+          <h1 class="btn-shine">Proyectos</h1>
+          <div class="package">
+            <div class="package2"><p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur quo saepe quidem asperiores voluptate consequatur. Porro, numquam nemo, ab blanditiis, nulla recusandae ratione eum commodi ipsum obcaecati amet perferendis natus?
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex impedit sit consequuntur libero corrupti provident quaerat recusandae vitae obcaecati tenetur placeat corporis maxime quo accusantium quis perferendis, sequi aspernatur hic.lo
+            </p></div>
+          </div>
+          <div class="package">
+            <div class="package2"><p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptatibus reprehenderit libero dicta consequuntur cupiditate alias. Nostrum quaerat quos expedita! Necessitatibus aliquid nulla perferendis cum blanditiis quas? Temporibus, sit accusantium.
+            Odit nobis animi ab distinctio! Optio illum distinctio ipsa iusto. Autem facilis distinctio sequi ducimus placeat reprehenderit enim ipsa? Qui dolor nisi natus. Reprehenderit, voluptate! Neque repellat veniam nam earum!</p></div>
+          </div>
+          <div class="package">
+            <div class="package2"><p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde tempore error aliquam delectus eveniet! Maiores harum enim illum omnis, debitis pariatur corrupti accusamus consequatur quaerat eos atque? Voluptatibus, exercitationem!
+            Architecto omnis sed corrupti delectus nam explicabo dignissimos repudiandae, voluptatum minima enim ipsam iste repellendus nostrum quibusdam vel reprehenderit quidem quo aliquam soluta excepturi sint ut? Itaque sequi voluptate a.</p></div>
+        </section>
+        
+        <h2 class="about">Sobre mí</h2>
+        <section class="info">
+            <div class="about-text">
+                <p>Soy Jose Lencina, un apasionado por la tecnología desde que tengo uso de razón, actualmente me encuentro estudiando Ciencia de Datos.</p> 
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim earum provident laboriosam odio voluptatum consectetur, dolorum consequatur quam ullam fugit porro numquam praesentium ipsam expedita, hic aut. Doloremque, exercitationem veritatis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laudantium obcaecati repellendus quo modi molestiae cupiditate, harum quasi sit eius placeat dolores libero accusantium. Vero perferendis modi illum quidem repudiandae!</p>
+            </div>
+          </div>
+        </section>
+      </main>  
+    <footer>
+      <p>&copy; 2025 Jose Lencina. All rights reserved.</p>
+    </footer>
+  </body>
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>   
+</html>
